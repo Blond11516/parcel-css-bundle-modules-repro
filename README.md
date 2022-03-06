@@ -1,7 +1,7 @@
 ## Introduction
 
 This repository aims to reproduce the incompatibility between the `--bundle` and
-`--css-modules` options of parcel-css.
+`--css-modules` options of parcel-css as described [here](https://github.com/parcel-bundler/parcel-css/issues/102).
 
 In the repo you will find two CSS files: `app.css` and `index.css`. Both of them
 contain a class selector called `.test` and `app.css` is imported by `index.css`.
