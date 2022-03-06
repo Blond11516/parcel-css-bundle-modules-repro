@@ -10,8 +10,8 @@ After installing the node-modules and running the `parcel-css` script defined in
 `package.json`, you will see that the generated `bundle.css` contains both
 classes with different names, as expected, but `bundle.json` only contains a
 mapping for one of these generated classes (the one from `index.css`). This
-effectively makes the `.test` class unreachable by whatever tooling is used to
-extract generated class names from the JSON file.
+effectively makes the `.test` class from `app.css` unreachable by whatever
+tooling is used to extract generated class names from the JSON file.
 
 ## Reproduction steps
 
