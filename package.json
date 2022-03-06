@@ -1,0 +1,15 @@
+{
+  "name": "parcel-css-bundle-modules-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parcel-css": "parcel-css index.css -o bundle.css --bundle --css-modules"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/css-cli": "1.5.0"
+  }
+}
